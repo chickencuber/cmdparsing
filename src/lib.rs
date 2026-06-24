@@ -130,7 +130,7 @@ macro_rules! cmd {
             std::process::exit(101);
         }
         $crate::cmd!{
-            $name:ident;
+            $name;
             help:$help;
             $(.$cmd;)?
             :_default;
